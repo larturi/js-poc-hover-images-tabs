@@ -1,28 +1,47 @@
+html {
+    background-color: black;
+    color: rgb(33, 218, 238);
+}
+
 .tabs {
     display: flex;
-  }
-  
-  .tab {
+}
+
+.tab {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-right: 20px;
+    margin-right: 50px;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
-  }
-  
-  .tab.active {
-    border-bottom: 2px solid black;
-  }
-  
-  .tab:hover:not(.active) {
-    color: #6d6d6d;
-  }
-  
-  .tab img {
-    width: 40px;
-    height: 40px;
+}
+
+.tab.active {
+    border-bottom: 2px solid rgb(31, 225, 25);
+    color: rgb(31, 225, 25);
+}
+
+.tab:hover:not(.active) {
+    color: rgb(33, 218, 238);
+}
+
+.tab:hover p {
+    color: rgb(31, 225, 25);
+}
+
+.tab img {
+    width: 100px;
+    height: 100px;
     margin-bottom: 5px;
-  }
-  
-  
+}
+
+.tab p {
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
