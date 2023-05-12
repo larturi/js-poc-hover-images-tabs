@@ -1,0 +1,28 @@
+.tabs {
+    display: flex;
+  }
+  
+  .tab {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .tab.active {
+    border-bottom: 2px solid black;
+  }
+  
+  .tab:hover:not(.active) {
+    color: #6d6d6d;
+  }
+  
+  .tab img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 5px;
+  }
+  
+  
